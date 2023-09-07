@@ -1,1 +1,1 @@
-console.log("Edkir es god")
+console.log("Edkir es god");
