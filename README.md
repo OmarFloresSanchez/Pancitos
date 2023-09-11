@@ -7,3 +7,12 @@
 * Valeria Jahzeel Castañon Hernandez - [ValeriaJahzeel](https://github.com/ValeriaJahzeel)
 * Edkir Uriel Nava Mendez - [EdkirM](https://github.com/EdkirM)
 * Eliud Roman Gutierrez Perez - [eliudroman](https://github.com/eliudroman)
+
+# Practica 1.2
+## Instrucciones
+* Busquen una imagen con transiciones de colores notorias y leanla con OpenCV
+* Creen una función que genere un histograma pero considerando todos los canales de la imagen
+* De forma manual (ustedes definan el área), generen una subventana de la imagen, con la misma hagan lo siguiente:
+     * Conviértanla a escala de grises (NTSC formula: 0.299 ∙ Red + 0.587 ∙ Green + 0.114 ∙ Blue)
+     * Muestren su histograma
+     * De forma aleatorio consideren 5 filas y grafiquen sus valores de intensidad para analizar las transiciones
