@@ -1,6 +1,6 @@
-# Practica 1
+Equipo: Pancitos 
 
-## Equipo: Pancitos
+## Practica 1
 
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
