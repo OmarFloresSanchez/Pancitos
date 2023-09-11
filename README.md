@@ -3,7 +3,7 @@
 ## Practica 1.1
 El objetivo es practicar la programacion colaborativa 
 > [!NOTE] 
-> profe, este readme lo edité el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje
+> profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje
 
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
