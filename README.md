@@ -11,7 +11,8 @@
 # Practica 1.2
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/Status: finalizado-green)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+
 ## Instrucciones
 * Busquen una imagen con transiciones de colores notorias y leanla con OpenCV
 * Creen una función que genere un histograma pero considerando todos los canales de la imagen
