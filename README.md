@@ -1,4 +1,4 @@
-Equipo: Pancitos 
+# Equipo: Pancitos 
 
 ## Practica 1
 
@@ -8,12 +8,12 @@ Equipo: Pancitos
 * Edkir Uriel Nava Mendez - [EdkirM](https://github.com/EdkirM)
 * Eliud Roman Gutierrez Perez - [eliudroman](https://github.com/eliudroman)
 
-# Practica 1.2
+## Practica 1.2
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 
-## Instrucciones
+### Instrucciones
 * Busquen una imagen con transiciones de colores notorias y leanla con OpenCV
 * Creen una función que genere un histograma pero considerando todos los canales de la imagen
 * De forma manual (ustedes definan el área), generen una subventana de la imagen, con la misma hagan lo siguiente:
