@@ -1,9 +1,10 @@
 # Equipo: Pancitos 
 
 ## Practica 1.1
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 El objetivo es practicar la programacion colaborativa 
 > [!NOTE] 
-> profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje
+> profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje tambien pusimos lo de la primera practica en un folder, solo por la organizacion 
 
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
@@ -15,7 +16,7 @@ El objetivo es practicar la programacion colaborativa
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
-
+El objetivo es empezar con un análisis digital básico utilizando OpenCV
 ### Instrucciones
 * Busquen una imagen con transiciones de colores notorias y leanla con OpenCV
 * Creen una función que genere un histograma pero considerando todos los canales de la imagen
