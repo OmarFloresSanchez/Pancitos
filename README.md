@@ -28,3 +28,17 @@ El objetivo es empezar con un análisis digital básico utilizando OpenCV
      * Conviértanla a escala de grises (NTSC formula: 0.299 ∙ Red + 0.587 ∙ Green + 0.114 ∙ Blue)
      * Muestren su histograma
      * De forma aleatorio consideren 5 filas y grafiquen sus valores de intensidad para analizar las transiciones
+
+
+## Practica 1.3
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN-DESARROLLO-red)
+
+Objetivo: Programar la transformada de Hough sin utililizar las librerias de python
+
+### Instrucciones
+* Ocupando la transformada de Hough (codificarla, no ocupar funciones) realicen la detección de líneas sobre un subconjunto aleatorio de 50 imágenes del conjunto de datos kitti
+* La salida es una imagen donde se marcan las líneas detectadas y una imagen del espacio de Hough donde se tiene que notar que existen varios puntos de intersección que van a representar las líneas
+* Ocupando el algoritmo de etiquetado de componentes conectados, identificar los componentes presentes en una muestra de 50 imágenes del conjunto de datos de Artificial Mercosur License Plates
+* En la imagen de salida colorear los componentes que se identifiquen de distintos colores
