@@ -8,7 +8,7 @@ import cv2
 # 1. Suavizar la imagen para eliminar el ruido
 def cargarFoto(foto):
      # se carga la imagen
-     imag = cv2.imread(foto,0)   # se lee la imagen en BGR
+     imag = cv2.imread('119.jpg',0)   # se lee la imagen en BGR
      filas, columnas = imag.shape
 
      matImg = np.array(imag)
@@ -123,4 +123,8 @@ def UmbralizacionHisteresis(HSM, filas, columnas):
      return histeresis
 
 
-foto = cargarFoto('119.jpg')
+#foto = cargarFoto('119.jpg')
+
+imag = Image.open('/119.jpg')   # se lee la imagen en BGR
+filas, columnas = imag.shape
+
