@@ -47,7 +47,7 @@ def hough(foto,umbral):
         r = int(x * math.cos(math.radians(t)) + y * math.sin(math.radians(t))) # para que se utilizen en radianes
         acumulador[r,t] += 1
 
-  print(acumulador)
+  #print(acumulador)
   
   # se establece un umbral para saber cuales son lineas
   #umbral = 300
@@ -105,7 +105,7 @@ def espacioHough(foto,maximos):
 # ----------------- IMPRIME LAS LINEAS Y EL ESPACIO -------------
 # ****************************************************************
 
-filas = 1
+filas = 2
 columnas = 5
 axes = []
 fig = plt.figure()
@@ -123,5 +123,30 @@ for i in range(filas*columnas):
 fig.tight_layout()
 plt.show()
 
+
+# ****************************************************************
+# ----------------- IMPRIME EL GRAFICO DEL ESPACIO -------------
+# ****************************************************************
+# no lo imprime xd
+"""
+for i in range(filas*columnas):
+    ruta = "juanmecanico/" + str(i) + ".png"
+    print(ruta)
+    _,maximos = hough(ruta,230)
+    grafico = espacioHough(ruta,maximos)
+
+    axes2.append(fig2.add_subplot(filas, columnas, i+1))
+    subplot_title2= ("Espacio de Hough "+str(i))
+    axes2[-1].set_title(subplot_title2)
+
+    imagen = Image.fromarray(grafico)
+    plt.imshow(imagen, cmap='gray', extent=[0, 360, 0, len(maximos)])
+    plt.xlabel('Theta (grados)')
+    plt.ylabel('Rho (píxeles)')
+    plt.colorbar()
+    
+fig2.tight_layout()    
+plt.show()
+"""
 
 
