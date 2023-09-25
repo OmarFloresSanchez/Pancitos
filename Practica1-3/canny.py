@@ -6,9 +6,9 @@ import cv2
 
 
 # 1. Suavizar la imagen para eliminar el ruido
-def cargarFoto(foto):
+def cargarFoto(foto,umbral_superior,umbral_inferior):
      # se carga la imagen
-     imag = cv2.imread('119.jpg',0)   # se lee la imagen en BGR
+     imag = cv2.imread(foto,0)   # se lee la imagen en BGR
      filas, columnas = imag.shape
 
      matImg = np.array(imag)
@@ -39,10 +39,11 @@ def cargarFoto(foto):
 
      matNSM = NoSupresionMazima(matGm,matGd, filas, columnas)
      # Visualizar los bordes detectados
-     matHisteresis = UmbralizacionHisteresis(matNSM, filas, columnas)
+     matHisteresis = UmbralizacionHisteresis(matNSM, filas, columnas,umbral_superior, umbral_inferior)
 
      imgHisteresis = Image.fromarray(matHisteresis)
-     cv2.imshow('Imagen con Canny',imgHisteresis)
+     
+     return matHisteresis
 
      
 # se realiza el proceso de convolucion
@@ -99,11 +100,11 @@ def NoSupresionMazima(Gm, Gd, filas, columnas):
 
 
 # Paso 4. Umbralizacion con histeresis
-def UmbralizacionHisteresis(HSM, filas, columnas):
+def UmbralizacionHisteresis(HSM, filas, columnas,umbral_inferior, umbral_superior):
     
      # mbrales inferior y superior
-     umbral_inferior = 25
-     umbral_superior = 70
+     #umbral_inferior = 100
+     #umbral_superior = 150
 
      # Crear una matriz de ceros del mismo tamaño que la imagen
      histeresis = np.zeros((filas,columnas))
@@ -123,8 +124,10 @@ def UmbralizacionHisteresis(HSM, filas, columnas):
      return histeresis
 
 
-#foto = cargarFoto('119.jpg')
+#imagenCanny = cargarFoto('119.jpg',50,100)
+#cv2.imshow('Imagen con Canny',imagenCanny)
 
-imag = Image.open('/119.jpg')   # se lee la imagen en BGR
-filas, columnas = imag.shape
+
+#imag = Image.open('/119.jpg')   # se lee la imagen en BGR
+#filas, columnas = imag.shape
 
