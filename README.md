@@ -33,7 +33,7 @@ El objetivo es empezar con un análisis digital básico utilizando OpenCV
 ## Practica 1.3
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red     )    
 
 Objetivo: Programar la transformada de Hough sin utililizar las librerias de python
 
@@ -42,3 +42,18 @@ Objetivo: Programar la transformada de Hough sin utililizar las librerias de pyt
 * La salida es una imagen donde se marcan las líneas detectadas y una imagen del espacio de Hough donde se tiene que notar que existen varios puntos de intersección que van a representar las líneas
 * Ocupando el algoritmo de etiquetado de componentes conectados, identificar los componentes presentes en una muestra de 50 imágenes del conjunto de datos de Artificial Mercosur License Plates
 * En la imagen de salida colorear los componentes que se identifiquen de distintos colores
+
+## Practica 1.4
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+
+Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de   umbralización que fueron revisadas en clase.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas
+de umbralización:
+* Umbralización global
+* Umbralización global por el método de Otsu
+* Umbralización local adaptativa por el método de Bernsen
+Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, en escala de grises. Las imágenes que interesa que chequen vienen adjuntada en la actividad.
