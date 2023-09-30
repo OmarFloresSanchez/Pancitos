@@ -5,14 +5,10 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import math
 
-# ----- NOMBRE DE LAS IMAGENES DE PRUEBA -----
+# ----- NOMBRE DE LAS IMAGENES DE PRUEBAaaa -----
 foto1 = "carretera.jpg"
 foto2 = "image-cell.png"
 foto3 = "person_bacteria.jpeg"
-
-# https://www.ripublication.com/ijaerdoi/2015/ijaerv10n9_20.pdf
-# https://www.researchgate.net/profile/Can-Eyupoglu/publication/315751159_Implementation_of_Bernsen's_Locally_Adaptive_Binarization_Method_for_Gray_Scale_Images/links/58e20d33aca272059ab08e6c/Implementation-of-Bernsens-Locally-Adaptive-Binarization-Method-for-Gray-Scale-Images.pdf
-# https://es.slideshare.net/JorgeAntonioParraSerquen/segmentacin-por-umbralizacin-mtodo-de-otsu
 
 
 def umbralizacionGlobal(imagen, umbral):
