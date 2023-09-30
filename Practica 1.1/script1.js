@@ -1,0 +1,1 @@
+console.log("Edkir es god");
