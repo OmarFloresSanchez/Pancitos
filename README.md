@@ -9,9 +9,6 @@
 
 El objetivo es practicar la programacion colaborativa 
 
-> [!NOTE] 
-> profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje tambien pusimos lo de la primera practica en un folder, solo por la organizacion 
-
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
 * Valeria Jahzeel Castañon Hernandez - [ValeriaJahzeel](https://github.com/ValeriaJahzeel)
