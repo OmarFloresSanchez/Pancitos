@@ -1,5 +1,9 @@
 # Equipo: Pancitos 
 
+> [!NOTE] 
+> Se ha creado una serie de carpetas que contienen todos los programas realizados y por realizar.
+> Esta carpeta se llama main y tiene las subcarpetas bordes, detectores_formas, formas_binarias, segmentacion y utilidades
+
 ## Practica 1.1
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
