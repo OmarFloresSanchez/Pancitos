@@ -5,15 +5,22 @@
 =======
 # Equipo: Pancitos 
 
+> [!NOTE] 
+> Se ha creado una serie de carpetas que contienen todos los programas realizados y por realizar.
+> Esta carpeta se llama main y tiene las subcarpetas bordes, detectores_formas, formas_binarias, segmentacion y utilidades
+
 ## Practica 1.1
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 El objetivo es practicar la programacion colaborativa 
 
+<<<<<<< HEAD
 > [!NOTE] 
 > profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje tambien pusimos lo de la primera practica en un folder, solo por la organizacion 
 >>>>>>> 7feff91ab154725debd777eff1cba04fde5291a1
 
+=======
+>>>>>>> 6dcee6b42f47b0e826d164c0e64b97f0fa82433b
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
 * Valeria Jahzeel Castañon Hernandez - [ValeriaJahzeel](https://github.com/ValeriaJahzeel)
@@ -26,7 +33,7 @@ El objetivo es practicar la programacion colaborativa
 ## Practica 1.2
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 El objetivo es empezar con un análisis digital básico utilizando OpenCV
 
@@ -37,4 +44,36 @@ El objetivo es empezar con un análisis digital básico utilizando OpenCV
      * Conviértanla a escala de grises (NTSC formula: 0.299 ∙ Red + 0.587 ∙ Green + 0.114 ∙ Blue)
      * Muestren su histograma
      * De forma aleatorio consideren 5 filas y grafiquen sus valores de intensidad para analizar las transiciones
+<<<<<<< HEAD
 >>>>>>> 7feff91ab154725debd777eff1cba04fde5291a1
+=======
+
+
+## Practica 1.3
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red     )    
+
+Objetivo: Programar la transformada de Hough sin utililizar las librerias de python
+
+### Instrucciones
+* Ocupando la transformada de Hough (codificarla, no ocupar funciones) realicen la detección de líneas sobre un subconjunto aleatorio de 50 imágenes del conjunto de datos kitti
+* La salida es una imagen donde se marcan las líneas detectadas y una imagen del espacio de Hough donde se tiene que notar que existen varios puntos de intersección que van a representar las líneas
+* Ocupando el algoritmo de etiquetado de componentes conectados, identificar los componentes presentes en una muestra de 50 imágenes del conjunto de datos de Artificial Mercosur License Plates
+* En la imagen de salida colorear los componentes que se identifiquen de distintos colores
+
+## Practica 1.4
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
+
+Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de   umbralización que fueron revisadas en clase.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas
+de umbralización:
+* Umbralización global
+* Umbralización global por el método de Otsu
+* Umbralización local adaptativa por el método de Bernsen
+Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, en escala de grises. Las imágenes que interesa que chequen vienen adjuntada en la actividad.
+>>>>>>> 6dcee6b42f47b0e826d164c0e64b97f0fa82433b
