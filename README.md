@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# Practica 1
-
-## Equipo: Pancitos
-=======
 # Equipo: Pancitos 
 
 > [!NOTE] 
@@ -14,20 +9,10 @@
 
 El objetivo es practicar la programacion colaborativa 
 
-<<<<<<< HEAD
-> [!NOTE] 
-> profe, este readme lo editamos el 10 de septiembre jeje ya estaba lo que nos habia pedido en la practica pero andabamos experimetando un poco con los estilos y ps ahora se ve mas bonito jeje tambien pusimos lo de la primera practica en un folder, solo por la organizacion 
->>>>>>> 7feff91ab154725debd777eff1cba04fde5291a1
-
-=======
->>>>>>> 6dcee6b42f47b0e826d164c0e64b97f0fa82433b
 ### Integrantes:
 * Omar Flores Sanchez - [OmarFloresSanchez](https://github.com/OmarFloresSanchez)
 * Valeria Jahzeel Castañon Hernandez - [ValeriaJahzeel](https://github.com/ValeriaJahzeel)
 * Edkir Uriel Nava Mendez - [EdkirM](https://github.com/EdkirM)
-<<<<<<< HEAD
-* Eliud Roman Gutierrez Perez - [eliudroman](https://github.com/eliudroman)
-=======
 * Eliud Roman Gutierrez Perez - [eliudroman](https://github.com/eliudroman)
 
 ## Practica 1.2
@@ -44,9 +29,6 @@ El objetivo es empezar con un análisis digital básico utilizando OpenCV
      * Conviértanla a escala de grises (NTSC formula: 0.299 ∙ Red + 0.587 ∙ Green + 0.114 ∙ Blue)
      * Muestren su histograma
      * De forma aleatorio consideren 5 filas y grafiquen sus valores de intensidad para analizar las transiciones
-<<<<<<< HEAD
->>>>>>> 7feff91ab154725debd777eff1cba04fde5291a1
-=======
 
 
 ## Practica 1.3
@@ -76,4 +58,3 @@ de umbralización:
 * Umbralización global por el método de Otsu
 * Umbralización local adaptativa por el método de Bernsen
 Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, en escala de grises. Las imágenes que interesa que chequen vienen adjuntada en la actividad.
->>>>>>> 6dcee6b42f47b0e826d164c0e64b97f0fa82433b
