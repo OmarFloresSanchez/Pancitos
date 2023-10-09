@@ -58,3 +58,17 @@ de umbralización:
 * Umbralización global por el método de Otsu
 * Umbralización local adaptativa por el método de Bernsen
 Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, en escala de grises. Las imágenes que interesa que chequen vienen adjuntada en la actividad.
+
+## Practica 2.1
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%DESARROLLO-greeb)
+
+Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de segmentación que fueron revisadas en clase.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas
+de umbralización:
+* Segmentacion por crecimiento de region
+* Segmentación por cluster por el método de k-medias
+
