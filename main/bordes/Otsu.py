@@ -1,4 +1,12 @@
-def umbralizacionOtsu(imagen):
+import cv2
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image
+import math
+
+def umbralizacionOtsu(imagen,retorno):
+
+    imagen = cv2.imread(imagen, 0)   # lee la imagen en escala de grises
     # calcular el histograma
     histograma = np.zeros(256)
     filas, columnas = imagen.shape
@@ -38,28 +46,14 @@ def umbralizacionOtsu(imagen):
     # Paso 5: Aplicar el umbral óptimo
     imagen_binaria = (imagen > final) * 255
 
-    print("Otsu: ", final)
+    if retorno == 0:
+        return imagen_binaria   # retorna la imagen
+    if retorno == 1:
+        return final    # retorna el umbral
+    else:
+        print("Error. 0 - retorna la imagen, 1 - retorna el umbral")
 
-    return imagen_binaria
 
 
-# ----- LLAMADO DE LAS FUNCIONES -----
-imagen = cv2.imread(foto1, 0)   # lee la imagen en escala de grises
 
-otsu = umbralizacionOtsu(imagen)  # guarda la imagen que resulta de ostu
 
-imgOtsu = Image.fromarray(otsu)    # pasa el arreglo a imagen
-
-# Muestra la imagen original y la imagen umbralizada
-plt.figure(figsize=(12, 6))
-plt.subplot(1, 2, 1)
-plt.imshow(imagen, cmap='gray')
-plt.title('Imagen Original')
-plt.axis('off')
-
-plt.subplot(1, 2, 2)
-plt.imshow(imgOtsu, cmap='gray')
-plt.title('Imagen Umbralizada (Otsu)')
-plt.axis('off')
-
-plt.show()
