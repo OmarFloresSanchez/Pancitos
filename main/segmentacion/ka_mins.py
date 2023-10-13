@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from PIL import Image
 import math
 from ..detectores_formas.canny import cargarFoto
-from ..bordes.otsu import umbralizacionOtsu
+from ..bordes.Otsu import umbralizacionOtsu
 import pandas as pd
 from mpl_toolkits.mplot3d import Axes3D 
 
