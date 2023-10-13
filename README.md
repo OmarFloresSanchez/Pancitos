@@ -6,10 +6,23 @@
 
 * main
      * bordes
+          * bernsen.py
+          * global.py
+          * otsu.py
      * detectores_formas
+          * canny.py
      * formas_binarias
+          * componentes_conectados
      * segmentacion
-     * utilidades
+          * crecimiento_region.py
+          * k-means.py
+          * transformadaHough.py
+     * utilidades  
+          * burbujas.png
+          * carretera.jpg
+          * image-cell.png
+          * person_bacteria.jpeg
+          * poke.jpg
 
 ## Practica 1.1
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
