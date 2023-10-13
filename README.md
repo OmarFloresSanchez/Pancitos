@@ -82,7 +82,7 @@ Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, e
 ## Practica 2.1
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-FINALIZADO-greeb)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de segmentación que fueron revisadas en clase.
 
