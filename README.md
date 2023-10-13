@@ -12,7 +12,7 @@
      * detectores_formas
           * canny.py
      * formas_binarias
-          * componentes_conectados
+          * componentes_conectados.py
      * segmentacion
           * crecimiento_region.py
           * k-means.py
