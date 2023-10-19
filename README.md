@@ -92,3 +92,14 @@ de umbralización:
 * Segmentacion por crecimiento de region
 * Segmentación por cluster por el método de k-medias
 
+## Practica 2.2
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+
+Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de preprocesamiento de límites (boundaries) que fueron revisadas en clase.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas de segmentación:
+* Algoritmo de seguimiento de límites (Moore boundary tracing algorithm).
+* Algoritmo de códigos de cadenas. Aquí se asume que se tienen imágenes con curvas cerradas y simples. Ocupen conectividad-4 y conectividad-8.
