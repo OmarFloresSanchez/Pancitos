@@ -24,7 +24,7 @@
           * person_bacteria.jpeg
           * poke.jpg
 
-## Practica 1.1
+## Practica 1.1 - Programación colaborativa
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 El objetivo es practicar la programacion colaborativa 
@@ -35,7 +35,7 @@ El objetivo es practicar la programacion colaborativa
 * Edkir Uriel Nava Mendez - [EdkirM](https://github.com/EdkirM)
 * Eliud Roman Gutierrez Perez - [eliudroman](https://github.com/eliudroman)
 
-## Practica 1.2
+## Practica 1.2 - Histograma y conversion a grises
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
@@ -51,7 +51,7 @@ El objetivo es empezar con un análisis digital básico utilizando OpenCV
      * De forma aleatorio consideren 5 filas y grafiquen sus valores de intensidad para analizar las transiciones
 
 
-## Practica 1.3
+## Practica 1.3 - Transformada de Hough
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red     )    
@@ -64,12 +64,12 @@ Objetivo: Programar la transformada de Hough sin utililizar las librerias de pyt
 * Ocupando el algoritmo de etiquetado de componentes conectados, identificar los componentes presentes en una muestra de 50 imágenes del conjunto de datos de Artificial Mercosur License Plates
 * En la imagen de salida colorear los componentes que se identifiquen de distintos colores
 
-## Practica 1.4
+## Practica 1.4 - Umbralizacion: global, Otsu, Bernsen
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
-Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de   umbralización que fueron revisadas en clase.
+Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de umbralización que fueron revisadas en clase.
 
 ### Instrucciones
 Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas
@@ -79,7 +79,7 @@ de umbralización:
 * Umbralización local adaptativa por el método de Bernsen
 Todas las técnicas reciben como entrada imágenes de un solo canal, es decir, en escala de grises. Las imágenes que interesa que chequen vienen adjuntada en la actividad.
 
-## Practica 2.1
+## Practica 2.1 - Segmentacion: crecimiento de región y k-medias
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
@@ -92,7 +92,7 @@ de umbralización:
 * Segmentacion por crecimiento de region
 * Segmentación por cluster por el método de k-medias
 
-## Practica 2.2
+## Practica 2.2 - Moore boundary tracing algorithm y cadenas de Freeman
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
@@ -104,10 +104,10 @@ Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo 
 * Algoritmo de seguimiento de límites (Moore boundary tracing algorithm).
 * Algoritmo de códigos de cadenas. Aquí se asume que se tienen imágenes con curvas cerradas y simples. Ocupen conectividad-4 y conectividad-8.
 
-## Proyecto de 2° parcial
+## Proyecto de 2° parcial - Clasificación de datos usando técnicas vistas en clase
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-red)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
 
 Objetivo: Realizar una investigación de forma parcial sobre los temas que se han revisado en el apartado de la descripción de objetos presentes en una imagen mediante la región de los bordes/límites (boundaries).
 
