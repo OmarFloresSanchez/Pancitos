@@ -103,3 +103,18 @@ Objetivo: Desarrollar y aplicar en casos específicos las diversas técnicas de 
 Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) las siguientes técnicas de segmentación:
 * Algoritmo de seguimiento de límites (Moore boundary tracing algorithm).
 * Algoritmo de códigos de cadenas. Aquí se asume que se tienen imágenes con curvas cerradas y simples. Ocupen conectividad-4 y conectividad-8.
+
+## Proyecto de 2° parcial
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-red)
+
+Objetivo: Realizar una investigación de forma parcial sobre los temas que se han revisado en el apartado de la descripción de objetos presentes en una imagen mediante la región de los bordes/límites (boundaries).
+
+### Instrucciones
+Elijan un conjunto de datos (puede ser MNIST o CIFAR 10 o algún otro) y hagan una caracterización de los objetos ocupando descriptores de bordes.
+1. Procesar datos
+2. Ocupar algoritmos que han implementado en prácticas pasadas (Tracing, Freeman, MPP) o implementar alguno de los platicados al fina (Signatures, Thinning, Fourier) para generar los descriptores.
+3. El o los algoritmos empleados deben de generar descriptores invariantes ante la transformación de la rotación y el escalamiento de las imágenes, para ello deben de generar estas transformaciones sobre el conjunto de datos. Ustedes proponen el ángulo de rotación y la proporción del escalamiento. Al final por cada imagen terminamos con tres: la original, la rotada y la escalada.
+4. Una vez con los descriptores, analizar si existen similitudes entre los los datos que nos puedan indicar que a través de ellos podemos hacer un reconocimiento de los objetos del conjunto de datos. Tal vez pueden hacer clustering con los descriptores, tal vez pueden graficar los descriptores super puestos en los objetos o algo más.
+5. Para probar pueden ocupar un subconjunto del conjunto de datos, por lo menos un objeto de cada clase presente. Por ejemplo, si consideran MNIST, un objeto de cada clase serían 9 imágenes, después de aplicar las transformaciones, terminarían con 27.
