@@ -4,26 +4,6 @@
 > Se ha creado una serie de carpetas que contienen todos los programas realizados y por realizar.
 > Esta carpeta se llama main y tiene las subcarpetas bordes, detectores_formas, formas_binarias, segmentacion y utilidades
 
-* main
-     * bordes
-          * bernsen.py
-          * global.py
-          * otsu.py
-     * detectores_formas
-          * canny.py
-     * formas_binarias
-          * componentes_conectados.py
-     * segmentacion
-          * crecimiento_region.py
-          * k-means.py
-          * transformadaHough.py
-     * utilidades  
-          * burbujas.png
-          * carretera.jpg
-          * image-cell.png
-          * person_bacteria.jpeg
-          * poke.jpg
-
 ## Practica 1.1 - Programación colaborativa
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
