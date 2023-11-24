@@ -107,7 +107,7 @@ Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo 
 ## Proyecto de 2° parcial - Clasificación de datos usando técnicas vistas en clase
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 Objetivo: Realizar una investigación de forma parcial sobre los temas que se han revisado en el apartado de la descripción de objetos presentes en una imagen mediante la región de los bordes/límites (boundaries).
 
@@ -118,3 +118,32 @@ Elijan un conjunto de datos (puede ser MNIST o CIFAR 10 o algún otro) y hagan u
 3. El o los algoritmos empleados deben de generar descriptores invariantes ante la transformación de la rotación y el escalamiento de las imágenes, para ello deben de generar estas transformaciones sobre el conjunto de datos. Ustedes proponen el ángulo de rotación y la proporción del escalamiento. Al final por cada imagen terminamos con tres: la original, la rotada y la escalada.
 4. Una vez con los descriptores, analizar si existen similitudes entre los los datos que nos puedan indicar que a través de ellos podemos hacer un reconocimiento de los objetos del conjunto de datos. Tal vez pueden hacer clustering con los descriptores, tal vez pueden graficar los descriptores super puestos en los objetos o algo más.
 5. Para probar pueden ocupar un subconjunto del conjunto de datos, por lo menos un objeto de cada clase presente. Por ejemplo, si consideran MNIST, un objeto de cada clase serían 9 imágenes, después de aplicar las transformaciones, terminarían con 27.
+
+## Práctica 3.1 - Clasificador con PCA y T-SNE
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+
+Objetivo: Desarrollar y aplicar el método de clasificación de mínima distancia.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el
+desarrollo de un programa donde implementen (a mano) el método de
+clasificación de mínima distancia, para ello considerar lo siguiente:
+* Desarrollar el método de clasificación como si fuera una clase de scikit-learn,
+lo que significa que vamos a hacer la abstracción del método. Lo básico que
+llevan estas implementaciones son los parámetros necesarios del método a
+forma de atributos y dos métodos, fit (que realiza el entrenamiento) y predict
+(que realiza una predicción/inferencia).
+* En el método de fit aplicar debemos de realizar el cálculo de centroides y
+distancias (euclidiana) donde se van a crear los límites de decisión
+(almacenar esta información). Lo que debemos de recibir es el conjunto de
+datos y con ellos trabajar.
+* El método predict hará la evaluación de un conjunto de datos de prueba con
+el límite de decisión, lo que debe de retornar es un vector con los índices de
+las clases predichas.
+* Con el vector retornado de predict, ocupen scikit-learn para calcular el
+accuracy y también su matriz de confusión.
+* Consideren el método de holdout para la preparación de los datos con una
+proporción de 80%-20% para los subconjuntos de entrenamiento y prueba,
+respectivamente.
