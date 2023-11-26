@@ -102,7 +102,7 @@ Elijan un conjunto de datos (puede ser MNIST o CIFAR 10 o algún otro) y hagan u
 ## Práctica 3.1 - Clasificador con PCA y T-SNE
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
-![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
 
 Objetivo: Desarrollar y aplicar el método de clasificación de mínima distancia.
 
@@ -127,3 +127,20 @@ accuracy y también su matriz de confusión.
 * Consideren el método de holdout para la preparación de los datos con una
 proporción de 80%-20% para los subconjuntos de entrenamiento y prueba,
 respectivamente.
+
+## Práctica 3.2 - SIFT
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+
+Objetivo: Desarrollar y aplicar el método SIFT para la extracción de descriptores y
+también para la fase de pareo de puntos clave entre dos imágenes.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el desarrollo de un programa donde implementen (a mano) el método de SIFT, para
+ello considerar lo siguiente:
+* En la implementación busquen ser modulares y creen funciones donde se aprecie que se hace cada uno de los pasos del algoritmo de SIFT
+(Construcción de espacio de escalas, Localización de puntos clave, Asignación de orientación, Descriptor de puntos clave). No hay problema si
+dentro de una función llaman a otras funciones, se entiende que es para no repetir código.
+* Cada uno de los pasos del algoritmo nos debe de dar un resultado que debemos de poder visualizar.
+* Finalmente, sabemos que no es parte del algoritmo, pero se espera que implementen el pareo (unión) de puntos clave entre nuestro template y la imagen donde queremos ubicar el objeto.
