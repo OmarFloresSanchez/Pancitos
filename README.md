@@ -144,3 +144,68 @@ ello considerar lo siguiente:
 dentro de una función llaman a otras funciones, se entiende que es para no repetir código.
 * Cada uno de los pasos del algoritmo nos debe de dar un resultado que debemos de poder visualizar.
 * Finalmente, sabemos que no es parte del algoritmo, pero se espera que implementen el pareo (unión) de puntos clave entre nuestro template y la imagen donde queremos ubicar el objeto.
+
+## Práctica 3.3 - Clasificador Naive Bayes
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
+
+Objetivo: Desarrollar y aplicar el clasificador gaussiano ingenuo para el
+reconocimiento de objetos.
+
+### Instrucciones
+OOcupando el lenguaje Python en el IDE de su preferencia, realizar el
+desarrollo de un programa donde implementen (a mano) el clasificador gaussiano
+ingenuo, para ello considerar lo siguiente:
+* Al igual que en su clasificador de mínima distancia creen una clase estilo
+scikit learn, es decir, creen un método de fit y uno de predict.
+* En este caso dejemos de lado las funciones de límite de decisión, no
+almacenaremos rectas. Apliquemos los datos sobre la expresión bayesiana
+gaussiana para inferir los datos en el conjunto de entrenamiento y de prueba,
+es decir, tenemos que calcular la probabilidad a priori, para ello consideren
+que cualquier clase tiene la misma probabilidad de aparecer. Tomen de
+referencia la siguiente fórmula:
+
+Los parámetros de mu y de sigma son los que tenemos que encontrar, para
+ello háganlo sobre el conjunto de entrenamiento.
+* Con los parámetros encontrados evalúe el rendimiento del clasificador en el
+conjunto de datos de entrenamiento y el conjunto de datos de prueba. Para
+ello ocupe las métricas de accuracy y genere la matriz de confusión (la matriz
+únicamente en el conjunto de prueba).
+* Para encontrar estos parámetros necesitamos extraer características, en este
+caso les pido que exploren la biblioteca scikit-image, en particular vean la
+siguiente liga que tiene métodos para la extracción de descriptores (vectores
+de patrones). evalúen cuál método les podría servir e impleméntelos para
+generar su matriz de características.
+
+## Práctica 3.4 - Segmentacipon en videos
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-red)
+
+Objetivo: Desarrollar y aplicar la segmentación de objetos que se mueven o
+aparecen en escena en datos de entrada de tipo video.
+
+### Instrucciones
+Ocupando el lenguaje Python en el IDE de su preferencia, realizar el
+desarrollo de un programa donde implementen (a mano) el algoritmo para
+segmentar objetos basado en la diferencia de fondo o imágenes, para ello
+considerar lo siguiente:
+* Analicen el conjunto de datos y determinen si estamos en el caso de fondos
+estáticos o donde estos cambian para saber qué enfoque ocupar.
+* Apliquen el algoritmo de 5 pasos que vimos en clase, muestren en el reporte
+y en código la forma en la que caracterizan el fondo y los objetos o cómo
+lidian con los problemas de fantasmas.
+* El método de umbralizado o binarización tiene que ser el local y que
+considera/modela las variaciones posibles de la iluminación.
+* Definan e implementen un método para hacer la eliminación del ruido que se
+presenta después de hacer la diferencia de las imágenes de referencia y las
+actuales.
+
+Las pruebas realícenlas con los videos que se adjuntan en la actividad, los cuales
+tienen una duración de entre 2 a 3 segundos y una tasa de refresco (framerate) de
+entre 20 a 30 frames por segundo. Dado que son videos pequeños, procesen todos
+los frames y sólo muestren resultados donde haya cambios en la escena.
+Versionen su desarrollo como siempre y de la misma forma, realicen el reporte que
+hable sobre los conceptos vistos y que muestre su metodología, discusión y
+conclusiones obtenidas. Suben la liga de github y el archivo del reporte.
