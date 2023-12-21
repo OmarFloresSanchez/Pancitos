@@ -178,7 +178,7 @@ siguiente liga que tiene métodos para la extracción de descriptores (vectores
 de patrones). evalúen cuál método les podría servir e impleméntelos para
 generar su matriz de características.
 
-## Práctica 3.4 - Segmentacipon en videos
+## Práctica 3.4 - Segmentación en videos
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![Status](https://img.shields.io/badge/STATUS-FINALIZADO-red)
@@ -209,3 +209,29 @@ los frames y sólo muestren resultados donde haya cambios en la escena.
 Versionen su desarrollo como siempre y de la misma forma, realicen el reporte que
 hable sobre los conceptos vistos y que muestre su metodología, discusión y
 conclusiones obtenidas. Suben la liga de github y el archivo del reporte.
+
+## Proyecto final - Flujo optico
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+![Status](https://img.shields.io/badge/STATUS-EN%20DESARROLLO-green)
+
+Objetivo: Desarrollar un programa que haga la estimación de movimientos,
+segmente objetos y los agrupo por similitud en un conjunto de datos de video.
+
+## Instrucciones: 
+Hacer un programa en el lenguaje de programación de Python en el
+IDE de su preferencia que realice lo siguiente:
+* Realizar la estimación del movimiento con base a la idea del flujo óptico
+(optical Flow). Ocupar tres enfoques distintos, uno de ellos puede ser el que
+se vio en clase (flujo óptico disperso), pueden implementar el de flujo óptico
+denso y alguna técnica de aprendizaje profundo como RAFT. También pueden
+checar soluciones como MediaPipe.
+* Con base a las imágenes resultantes donde se marque el movimiento que se
+realiza en un dato de entrada, realizar la segmentación de los objetos en
+movimiento. Pueden aplicar el algoritmo visto en clase o alguno otro que
+encuentren.
+* Finalmente, ocupar las imágenes segmentadas para aplicar algún algoritmo
+de clustering, en alguna representación gráfica mostrar los clusters que se
+forman. Evaluar los clusters que se forman con alguna métrica, puede ser el
+puntaje de la silueta (silhuette score) o algún otro. Si ocupan k-medias,
+ocupen el método del codo para justificar el valor de k.
